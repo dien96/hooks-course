@@ -1,5 +1,7 @@
+import "./App.css";
 import { ContextExample } from "./hooks/ContextExample";
 import { EffectExample } from "./hooks/EffectExample";
+import { ReducerExample } from "./hooks/ReducerExample";
 import { StateExample } from "./hooks/StateExample";
 
 function App() {
@@ -7,7 +9,8 @@ function App() {
     <>
       {/*<StateExample />*/}
       {/* <EffectExample /> */}
-      <ContextExample />
+      {/* <ContextExample /> */}
+      <ReducerExample />
     </>
   );
 }
