@@ -1,5 +1,6 @@
 import "./App.css";
 import { ContextExample } from "./hooks/ContextExample";
+import { DeferredValueExample } from "./hooks/DeferredValueExample";
 import { EffectExample } from "./hooks/EffectExample";
 import { ImperativeHandleExample } from "./hooks/ImperativeHandleExample";
 import { InsertionEffectExample } from "./hooks/InsertionEffectExample";
@@ -8,6 +9,7 @@ import { ReducerExample } from "./hooks/ReducerExample";
 import { RefExample } from "./hooks/RefExample";
 import { StateExample } from "./hooks/StateExample";
 import { TransitionExample } from "./hooks/TransitionExample";
+import { SyncExternalStoreExample } from "./hooks/use-sync-external-store";
 import { UseIdExample } from "./hooks/UseIdExample";
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
       {/* <LayoutEffectExample /> */}
       {/* <InsertionEffectExample /> */}
       {/* <UseIdExample /> */}
-      <TransitionExample />
+      {/* <TransitionExample /> */}
+      {/* <DeferredValueExample /> */}
+      <SyncExternalStoreExample />
     </>
   );
 }
